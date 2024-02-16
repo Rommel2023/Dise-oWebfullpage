@@ -1,0 +1,62 @@
+.imagen {
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.titulo {
+    font-size: 90px;
+    color: rgb(199, 6, 6);
+
+}
+
+.icono {
+
+    font-size: 90px;
+    background-color: none;
+}
+
+.telefono {
+    font-size: 70px;
+}
+
+.texto {
+    font-size: 17px;
+}
+
+.iconoredes {
+    background-color: transparent;
+    border-color: transparent;
+    color: black;
+    background-color: transparent;
+    border: 0;
+    font-size: 70px;
+}
+
+.custom-btn-primary {
+    background-color: transparent;
+    border-color: transparent;
+    border: 0;
+    /* Remove the border */
+}
+
+
+.custom-btn-primary:hover {
+    background-color: transparent;
+    border: 0;
+}
+
+.botonRegreso {
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.botonRegreso:hover {
+    background-color: #ff0501;
+    /* Darker pink on hover */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    /* Increase shadow on hover */
+}

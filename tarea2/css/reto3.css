@@ -1,0 +1,47 @@
+.linea {
+    width: 30%;
+}
+
+.titulo1 {
+    color: #00479b;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #00479b;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+header {
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+footer {
+    background-color: #00479b;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.botonRegreso {
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.botonRegreso:hover {
+    background-color: #ff0501;
+    /* Darker pink on hover */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    /* Increase shadow on hover */
+}

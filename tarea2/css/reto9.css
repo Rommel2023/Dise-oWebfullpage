@@ -1,0 +1,23 @@
+.imagen {
+    width: 60%;
+
+}
+
+figure {
+    width: 60%;
+}
+
+.botonRegreso {
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.botonRegreso:hover {
+    background-color: #ff0501;
+    /* Darker pink on hover */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    /* Increase shadow on hover */
+}
