@@ -1,0 +1,78 @@
+/* clases generales */
+
+.tama {
+    font-size: 20px;
+}
+
+.titulo {
+    color: #f5d87f;
+}
+
+
+
+/* ------------ */
+
+
+
+
+.banner1 {
+    background-image: url("/imagenes/luzColores.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: screen;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+
+}
+
+
+
+.logo {
+    width: 150px;
+}
+
+i {
+    color: white;
+    font-size: 100px;
+
+}
+
+/* .boton {
+    background-color: #361111;
+    color: white;
+    padding: 15px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.boton:hover {
+    background-color: #9b7f70;
+} */
+
+/* --------------------- */
+.banner {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    /*control altura del banner*/
+    height: 20vh;
+    /* Cambiado de calc(40vh) */
+    background-position: center;
+    background-color: black;
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
+}
+
+.divisorClip {
+    background-color: black;
+    height: 250px;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
+    clip-path: polygon(51% 25%, 0 0, 100% 0);
+    padding-bottom: 1.5rem;
+}

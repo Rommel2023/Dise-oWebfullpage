@@ -1,0 +1,105 @@
+body {
+    background-color: black;
+
+}
+
+header {
+    background-color: #290d0a;
+    top: 1px;
+    position: sticky;
+    z-index: 1000;
+    /* Este valor puede ajustarse según sea necesario */
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Añade una sombra suave */
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.boton {
+    background-color: #000000;
+    color: white;
+    padding: 15px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.boton:hover {
+    background-color: #9b7f70;
+    /* Color de fondo al pasar el ratón */
+}
+
+
+.navbar-nav .nav-link:hover {
+    color: #d9d9d9;
+    /* Cambia el color de texto al pasar el cursor */
+}
+
+.navbar-toggler-icon {
+    background-color: #9b7f70;
+    /* Cambia el color del icono del botón del menú */
+}
+
+/* clases generales */
+
+.tama {
+    font-size: 24px;
+}
+
+.tama2 {
+    font-size: 21px !important;
+}
+
+.titulo {
+    color: #f5d87f;
+}
+
+.logo {
+    width: 150px;
+}
+
+/* seccion 1 */
+.sec1 {
+    background-image: url("/imagenes/AXE.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: calc(100vh);
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: screen;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    padding-top: 0;
+}
+
+/* seccion 2  */
+.px-5 {
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Ultima seccion */
+.banner1 {
+    background-image: url("/imagenes/humo.jpeg");
+    background-size: cover;
+    height: calc(60vh);
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: screen;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    padding-top: 0;
+}

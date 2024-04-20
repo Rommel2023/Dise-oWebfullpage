@@ -1,0 +1,349 @@
+body {
+    background-color: black;
+
+}
+
+/* clases generales */
+
+.tama {
+    font-size: 20px !important;
+}
+
+.titulo {
+    color: #f5d87f;
+}
+
+
+.boton {
+    background-color: #000000;
+    color: white;
+    padding: 15px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.boton:hover {
+    background-color: #9b7f70;
+    /* Color de fondo al pasar el ratón */
+}
+
+.video2 {
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: screen;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    padding-top: 0;
+    height: calc(100vh);
+}
+
+.video {
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: screen;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    padding-top: 0;
+    height: 610px;
+    clip-path: polygon(50% 0%, 100% 0, 100% 85%, 50% 100%, 0 83%, 0 0);
+}
+
+
+.banner1 {
+    background-image: url("/imagenes/barbaAcha.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: screen;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    padding-top: 0;
+}
+
+.bannerparallax {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    /*control altura del banner*/
+
+    background-position: center;
+    background-image: url('../imagenes/parallax.jpeg');
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
+}
+
+.divisor {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-size: cover;
+    background-image: url('../imagenes/barbaAcha.jpeg');
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+    height: calc(40vh);
+    background-position: center;
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
+}
+
+
+
+header {
+    background-color: #290d0a !important;
+    top: 1px;
+    position: sticky;
+    z-index: 1000;
+    /* Este valor puede ajustarse según sea necesario */
+    height: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Añade una sombra suave */
+}
+
+footer {
+    height: 50px;
+}
+
+.masGrande {
+    font-size: 30px;
+}
+
+
+.espa {
+    padding-top: 27px;
+}
+
+
+
+.navbar-nav .nav-link {
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #d9d9d9;
+    /* Cambia el color de texto al pasar el cursor */
+}
+
+.navbar-toggler-icon {
+    background-color: #9b7f70;
+    /* Cambia el color del icono del botón del menú */
+}
+
+
+.logo {
+    width: 150px;
+}
+
+.boton1 {
+    background-color: #9b7f70;
+    border: 2px solid #9b7f70;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.fondocolor {
+    background-color: white;
+
+    border-radius: 2%;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.animacion2 {
+    width: 30%;
+
+}
+
+.ratio-16x9 {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.ratio-16x9 iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.container-botonws {
+    background-color: #e4e4e4;
+    border: 1px solid #fff;
+    position: fixed;
+    z-index: 1000;
+    border-radius: 50%;
+    bottom: 20px;
+    right: 25px;
+    padding: 25px;
+    transition: ease 0.3s;
+    animation: efecto 1.2s infinite;
+}
+
+.container-botonws:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+
+.botonws {
+    width: 60px;
+    transition: ease 1s;
+}
+
+.boton-descargar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #816053;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+
+
+.goto-top {
+    position: fixed;
+    bottom: 30px;
+    left: 20px;
+    width: 75px;
+    height: 50px;
+}
+
+i {
+    color: white;
+    font-size: 90px;
+
+    border-color: #290d0a;
+}
+
+
+
+
+/*CAROUSEL*/
+
+
+/*tamaño de flechas*/
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 60px;
+    height: 60px;
+    /*fondo de color*/
+    /* background-color: #e4e4e4; */
+}
+
+
+/*color de flechas*/
+/*cambiar la propiedad fill por # hexadecimal*/
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+
+
+/*acordeon*/
+
+
+/*color de fondo de cada seccion*/
+
+.accordion-body {
+    background-color: #816053;
+}
+
+
+/*justificar textos*/
+
+.justificar {
+    text-align: justify;
+    text-indent: 0rem;
+    margin: 0;
+}
+
+
+/*cambiar color a las flechas finales de cada seccion*/
+
+.accordion-button:is(.collapsed)::after {
+    box-shadow: none;
+    background-color: #fff;
+}
+
+.accordion-button:not(.collapsed)::after {
+    box-shadow: none;
+    background-color: #fff;
+}
+
+
+/*estado actual*/
+
+.accordion-button {
+    color: #fff !important;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+
+/*La pseudo-clase :last-child de CSS representa el último elemento entre un grupo de elementos hermanos.*/
+
+.accordion-button:last-child {
+    background-color: rgb(0, 0, 0);
+}
+
+
+/*estado sobre*/
+
+.accordion-button:hover {
+    color: #290d0a !important;
+    background-color: #ffff;
+}
+
+
+/*estado activo*/
+
+.accordion-button:focus {
+    color: #ffff !important;
+    background-color: #290d0a;
+}
+
+
+/*grupo de listas*/
+
+.lista:hover {
+    color: #290d0a;
+    background-color: #816053;
+    border-color: #290d0a;
+    border-width: 2px;
+}
+
+/* background-color: #290d0a;
+background-color: #816053; */
+
+
+/*tooltip*/
+
+.tooltip>.tooltip-inner {
+    background-color: rgb(247, 233, 39) !important;
+    color: #000 !important;
+}

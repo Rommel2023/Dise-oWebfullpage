@@ -1,0 +1,64 @@
+body {
+    background-image: url("/imagenes/reserva1.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: screen;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+
+}
+
+footer {
+    background-color: black;
+}
+
+.logo {
+    width: 150px;
+}
+
+.tama {
+    font-size: 20px !important;
+}
+
+.titulo {
+    color: #f5d87f;
+}
+
+header {
+    color: white !important;
+}
+
+.orden {
+    padding-top: 10px;
+
+}
+
+
+.lista:hover {
+    color: rgb(17, 50, 143);
+    background-color: #e4e4e4;
+    border-color: rgb(17, 50, 143);
+    border-width: 2px;
+}
+
+.boton {
+    background-color: #000000;
+    color: white;
+    padding: 15px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.boton:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: black;
+    /* Color de fondo al pasar el ratón */
+}
+
+.formulario_casillas input {
+    border: none;
+}

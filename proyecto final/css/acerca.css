@@ -1,0 +1,157 @@
+body {
+    background-color: black;
+
+}
+
+header {
+    background-color: #290d0a;
+    top: 1px;
+    position: sticky;
+    z-index: 1000;
+    /* Este valor puede ajustarse según sea necesario */
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Añade una sombra suave */
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #d9d9d9;
+    /* Cambia el color de texto al pasar el cursor */
+}
+
+.navbar-toggler-icon {
+    background-color: #9b7f70;
+    /* Cambia el color del icono del botón del menú */
+}
+
+
+/* clases generales */
+
+.tama {
+    font-size: 26px !important;
+}
+
+.tama2 {
+    font-size: 21px !important;
+}
+
+.titulo {
+    color: #f5d87f;
+}
+
+.logo {
+    width: 150px;
+}
+
+/* Seccion  1*/
+.projects-section {
+    padding: 10rem 0;
+}
+
+.projects-section .featured-text {
+    padding: 2rem;
+}
+
+.projects-section .featured-text {
+    padding: 2rem;
+}
+
+.projects-section .project-text {
+    padding: 3rem;
+    font-size: 90%;
+}
+
+
+/*acordeon*/
+
+
+/*color de fondo de cada seccion*/
+
+.accordion-body {
+    background-color: #383838;
+}
+
+
+/*justificar textos*/
+
+.justificar {
+    text-align: justify;
+    text-indent: 0rem;
+    margin: 0;
+}
+
+
+/*cambiar color a las flechas finales de cada seccion*/
+
+.accordion-button:is(.collapsed)::after {
+    box-shadow: none;
+    background-color: #fff;
+}
+
+.accordion-button:not(.collapsed)::after {
+    box-shadow: none;
+    background-color: #fff;
+}
+
+
+/*estado actual*/
+
+.accordion-button {
+    color: #fff !important;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+
+/*La pseudo-clase :last-child de CSS representa el último elemento entre un grupo de elementos hermanos.*/
+
+.accordion-button:last-child {
+    background-color: rgb(0, 0, 0);
+}
+
+
+/*estado sobre*/
+
+.accordion-button:hover {
+    color: #ffffff !important;
+    background-color: #ffff;
+    color: black !important;
+}
+
+
+/*estado activo*/
+
+.accordion-button:focus {
+    color: #ffff !important;
+    background-color: #383838;
+}
+
+
+/*grupo de listas*/
+
+.lista:hover {
+    color: #290d0a;
+    background-color: #816053;
+    border-color: #290d0a;
+    border-width: 2px;
+}
+
+/* barberos */
+
+.banner1 {
+    background-image: url("/imagenes/barbaAcha.jpeg");
+    background-size: cover;
+
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: screen;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    padding-top: 0;
+}
