@@ -1,5 +1,6 @@
 body {
-    background-color: #300c0c;
+    background-color: #361111;
+
 }
 
 
@@ -13,7 +14,22 @@ body {
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     padding-top: 0;
+    height: 610px;
+}
 
+
+
+.video {
+    background-image: url("/imagenes/bannerParallax.jpg");
+    background-size: cover;
+
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: screen;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    padding-top: 0;
+    height: 610px;
 }
 
 .banner2 {
@@ -37,14 +53,47 @@ body {
     /*control altura del banner*/
     height: calc(40vh);
     background-position: center;
-    background-image: url('../imagenes/bannerParallax.jpg');
+    background-image: url('../imagenes/fondo.jpg');
     background-blend-mode: multiply;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
 }
 
+
 header {
-    background-color: #816053;
+    background-color: #290d0a;
+    top: 1px;
+    position: sticky;
+    z-index: 1000;
+    /* Este valor puede ajustarse según sea necesario */
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Añade una sombra suave */
 }
+
+.masGrande {
+    font-size: 30px;
+}
+
+footer {
+    background-color: #290d0a;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #d9d9d9;
+    /* Cambia el color de texto al pasar el cursor */
+}
+
+.navbar-toggler-icon {
+    background-color: #9b7f70;
+    /* Cambia el color del icono del botón del menú */
+}
+
 
 .logo {
     width: 150px;
@@ -111,10 +160,60 @@ header {
     transition: ease 1s;
 }
 
+.boton-descargar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #816053;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+
+
 .goto-top {
     position: fixed;
     bottom: 30px;
     left: 20px;
     width: 75px;
     height: 50px;
+}
+
+i {
+    color: white;
+    font-size: 90px;
+    background-color: #290d0a;
+    border-color: #290d0a;
+}
+
+
+
+
+/*CAROUSEL*/
+
+
+/*tamaño de flechas*/
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 60px;
+    height: 60px;
+    /*fondo de color*/
+    /* background-color: #e4e4e4; */
+}
+
+
+/*color de flechas*/
+/*cambiar la propiedad fill por # hexadecimal*/
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
